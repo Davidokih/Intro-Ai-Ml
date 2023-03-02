@@ -13,31 +13,31 @@ sum = 0
 for i in revenues:
     sum += i
 
-# print(sum)
+print(sum)
 termination_time = time.time()
 
-# print("Execution Time", termination_time - initial_time)
+print("Execution Time", termination_time - initial_time)
 
 array = np.array(revenues)
 
 initial_time = time.time()
 
 sum = array.sum()
-# print(sum)
+print(sum)
 
 termination_time = time.time()
-# print("Execution Time", termination_time - initial_time)
+print("Execution Time", termination_time - initial_time)
 
 x = ["Ben", 500, "Jake", "Lie", 6000]
 
-# for i in x:
-#     print(type(i))
+for i in x:
+    print(type(i))
 
 arrayx = np.array(x)
-# print(arrayx)
+print(arrayx)
 
-# for i in arrayx:
-#     print(type(i))
+for i in arrayx:
+    print(type(i))
 
 array2 = np.array([[1,2,3], [4,5,6]])
 print(array2)
