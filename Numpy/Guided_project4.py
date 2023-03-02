@@ -21,22 +21,22 @@ append_performance_measures(call_numbers)
 append_performance_measures(average_deal_sizes)
 append_performance_measures(revenues)
 
-# print(data)
-# print(data.shape)
+print(data)
+print(data.shape)
 
 
 # the .reshape method structure the array without changing is value
 
 data = data.reshape(4,11)
-# print(data)
-# print(data.shape)
+print(data)
+print(data.shape)
 
-# print(data[0])
-# print(data[1])
-# print(data[2])
-# print(data[3])
+print(data[0])
+print(data[1])
+print(data[2])
+print(data[3])
 
-# print(data[3,7])
+print(data[3,7])
 
 def calculate_performance(employee_name):
     idx = names.index(employee_name)
