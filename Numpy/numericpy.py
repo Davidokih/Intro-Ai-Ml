@@ -3,7 +3,7 @@ import time
 
 array = np.array([1,2,3,4,5])
 
-# print(type(array))
+print(type(array))
 
 revenues = [2000, 5000, 3000, 65000, 7200, 31000, 26550, 1900, 3020, 5100, 41000]
 
